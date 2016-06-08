@@ -1,11 +1,13 @@
 package aeronautique;
 
 public class Avion {
-
+/**
+ * Attributs de notre Classe Avion
+ */
 	private int numeroAvion;
 	private String nomAvion;
 	private String localisationAvion;
-	private int capaciteAvionnumero;
+	private int capaciteAvion;
 	
 	
 	public int getNumeroAvion() {
@@ -17,22 +19,22 @@ public class Avion {
 		this.numeroAvion = numeroAvion;
 		this.nomAvion = nomAvion;
 		this.localisationAvion = localisationAvion;
-		this.capaciteAvionnumero = capaciteAvionnumero;
+		this.capaciteAvion = capaciteAvionnumero;
 	}
 
 
 	@Override
 	public String toString() {
 		return "Avion [numeroAvion=" + numeroAvion + ", nomAvion=" + nomAvion + ", localisationAvion="
-				+ localisationAvion + ", capaciteAvionnumero=" + capaciteAvionnumero + "]";
+				+ localisationAvion + ", capaciteAvionnumero=" + capaciteAvion + "]";
 	}
 
-	public int getCapaciteAvionnumero() {
-		return capaciteAvionnumero;
+	public int getCapaciteAvion() {
+		return capaciteAvion;
 	}
 
-	public void setCapaciteAvionnumero(int capaciteAvionnumero) {
-		this.capaciteAvionnumero = capaciteAvionnumero;
+	public void setCapaciteAvion(int capaciteAvionnumero) {
+		this.capaciteAvion = capaciteAvionnumero;
 	}
 
 
