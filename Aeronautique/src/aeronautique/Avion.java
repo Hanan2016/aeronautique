@@ -27,6 +27,14 @@ public class Avion {
 				+ localisationAvion + ", capaciteAvionnumero=" + capaciteAvionnumero + "]";
 	}
 
+	public int getCapaciteAvionnumero() {
+		return capaciteAvionnumero;
+	}
+
+	public void setCapaciteAvionnumero(int capaciteAvionnumero) {
+		this.capaciteAvionnumero = capaciteAvionnumero;
+	}
+
 
 
 }
