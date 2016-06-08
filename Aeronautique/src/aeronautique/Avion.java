@@ -8,7 +8,7 @@ public class Avion {
 	private String nomAvion;
 	private String localisationAvion;
 	private int capaciteAvion;
-	
+	private int enPlus;
 	
 	public int getNumeroAvion() {
 		return numeroAvion;
@@ -20,6 +20,7 @@ public class Avion {
 		this.nomAvion = nomAvion;
 		this.localisationAvion = localisationAvion;
 		this.capaciteAvion = capaciteAvionnumero;
+		this.enPlus =15;
 	}
 
 
