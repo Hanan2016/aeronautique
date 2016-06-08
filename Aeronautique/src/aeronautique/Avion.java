@@ -20,7 +20,8 @@ public class Avion {
 		this.nomAvion = nomAvion;
 		this.localisationAvion = localisationAvion;
 		this.capaciteAvion = capaciteAvionnumero;
-		this.enPlus =15;
+		
+		this.enPlus = 50;
 	}
 
 
