@@ -21,30 +21,6 @@ public class Avion {
 	}
 
 
-
-
-	public void setNumeroAvion(int numeroAvion) {
-		this.numeroAvion = numeroAvion;
-	}
-	public String getNomAvion() {
-		return nomAvion;
-	}
-	public void setNomAvion(String nomAvion) {
-		this.nomAvion = nomAvion;
-	}
-	public String getLocalisationAvion() {
-		return localisationAvion;
-	}
-	public void setLocalisationAvion(String localisationAvion) {
-		this.localisationAvion = localisationAvion;
-	}
-	public int getCapaciteAvionnumero() {
-		return capaciteAvionnumero;
-	}
-	public void setCapaciteAvionnumero(int capaciteAvionnumero) {
-		this.capaciteAvionnumero = capaciteAvionnumero;
-	}
-
 	@Override
 	public String toString() {
 		return "Avion [numeroAvion=" + numeroAvion + ", nomAvion=" + nomAvion + ", localisationAvion="
